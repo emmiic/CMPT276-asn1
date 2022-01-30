@@ -1,0 +1,102 @@
+body {
+    background: #a6192d;
+    margin-top:0;
+    margin-left: 60px;
+    margin-right: 60px;
+}
+
+.white {
+    background: white;
+    border-top: 20px solid #3d3935;
+    border-bottom: 40px solid #3d3935;
+    box-shadow: 0px 0px 15px 2px #3f0a12;
+    padding: 0;
+}
+
+.h1{
+    font-family: Helvetica, Arial, sans-serif;
+    font-weight: lighter;
+    margin-top: 0;
+    margin-bottom: 0;
+    padding-left: 20px;
+    padding-top: 50px;
+    padding-bottom: 20px;
+}
+
+.blue {
+    background-color: rgb(233, 239, 241);
+    font-family: Georgia;
+    border: 1px solid #DCE7EC;
+    border-radius: 3px;
+    padding: 14px 10px 14px 10px;
+    width: 75%;
+    margin-left: 20px;
+    margin-bottom: 20px;
+}
+
+.red {
+    color: rgb(181,17,25);
+    font-weight: bold;
+    font-size: 1.2em;
+}
+
+#default {
+    font-size: 0.9em;
+    font-weight: bold;
+}
+
+#white{
+    background-color: pink;
+}
+
+#default {
+    color: black;
+}
+
+th {
+    background-color: rgb(221,221,221);
+    height: 1.4em;
+    font-weight: bold;
+    font-size: 1.1em;
+}
+
+table {
+    width: 100%;
+}
+
+table,th, td{
+    padding-top: 5px;
+    padding-left: 6px;
+    text-align: justify; 
+    border: 1px solid;
+    border-collapse: collapse;
+    border-color: #C9CBCC;
+    font-weight: bold;
+    
+}
+
+td {
+    width: 20%;
+    height: 2.5em;
+    font-size: 0.9em;
+}
+
+button {
+    color: white;
+    border-radius: 5px;
+    background-color: rgb(181,17,25);
+    border: 0px;
+    height: 2.2em;
+    font-size: 0.9em;
+}
+
+
+.bottom {
+    text-align: right;
+}
+
+input {
+    position: relative;
+    width: 40px;
+    height: 1.9em;
+}

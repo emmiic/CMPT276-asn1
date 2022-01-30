@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+    <head>
+        <meta charset="utf-8">
+        <title>Grade Calculator</title>
+        <link rel="stylesheet" href="./stylesheets/calculator.css">
+        
+    </head>
+    <body>
+        
+        <div class="white">
+            <h1 class="h1">Grade Calculator</h1>
+            <main class="blue">
+                <p class="red">Activities</p>
+                <p id="default"> Give grades to the numeric activities:</p>
+                <br>
+                <table id="mytbl">
+                    <tr>
+                        <th>Name</th>
+                        <th>Short Name</th>
+                        <th>Weight</th>
+                        <th>Grade</th>
+                        <th>Percent</th>
+                    </tr>
+                    <tr>
+                        <td>Activity 1</td>
+                        <td>A1</td>
+                        <td>
+                            <input class="weight" type="number" name="weight" value="">
+                        </td>
+                        <td>
+                            <input class="num" type="number" name="num" value=""> /
+                            <input class="denom" type="number" name="denom" value="">
+                        </td>
+                        <td class="percent"></td>
+                    </tr>
+                    <tr>
+                        <td>Activity 2</td>
+                        <td>A2</td>
+                        <td>
+                            <input class="weight" type="number" name="weight" value="">
+                        </td>
+                        <td>
+                            <input class="num" type="number" name="num" value=""> /
+                            <input class = "denom" type="number" name="denom" value="">
+                        </td>
+                        <td class="percent"></td>
+                    </tr>
+                    <tr>
+                        <td>Activity 3</td>
+                        <td>A3</td>
+                        <td>
+                            <input class="weight" type="number" name="weight" value="">
+                        </td>
+                        <td>
+                            <input class="num" type="number" name="num" value=""> /
+                            <input class="denom" type="number" name="denom" value="">
+                        </td>
+                        <td class="percent"></td>
+                    </tr>
+                    <tr>
+                        <td>Activity 4</td>
+                        <td>A4</td>
+                        <td>
+                            <input class="weight" type="number" name="weight" value="">
+                        </td>
+                        <td>
+                            <input class="num" type="number" name="num" value=""> /
+                            <input class="denom" type="number" name="denom" value="">
+                        </td>
+                        <td class="percent"></td>
+                    </tr>
+                </table>
+                <br>
+                <button id="add" type="botton" name="add">ADD ACTIVITY</button><br>
+                <p class="red">Result</p><p id="result"></p><p id="alert"></p>
+                <div class="bottom">
+                    <button id="weighted" type="botton" name="add">WEIGHTED</button>
+                    <button id="mean" type="botton" name="add">&emsp;MEAN&emsp;</button>
+                </div>           
+            </main>
+        <br>
+        </div>
+        <script type="text/javascript" src="./calculator.js">
+        </script>
+    </body>
+</html>
